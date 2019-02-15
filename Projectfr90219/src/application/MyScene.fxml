@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="410.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   
+   <children>
+      <Text fx:id="no" layoutX="314.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="140.13671875" />
+      <TextField fx:id="myTextField1" layoutX="147.0" layoutY="46.0" />
+      <Text layoutX="25.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите чило:" />
+      <Text layoutX="25.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Получившееся число:" />
+      <Button fx:id="Button2" layoutX="203.0" layoutY="183.0" mnemonicParsing="false" onAction="#system8" onMouseClicked="#system8" text="8-ую систему исчисления" />
+      <Button fx:id="Button1" layoutX="199.0" layoutY="121.0" mnemonicParsing="false" onAction="#system16" onMouseClicked="#system16" text="16-ую систему исчисления" />
+      <Text layoutX="25.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Перевести число в:" />
+      <Text fx:id="ans" layoutX="199.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="205.0" />
+   </children>
+</AnchorPane>
